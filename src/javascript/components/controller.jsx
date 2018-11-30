@@ -10,6 +10,8 @@ class Controller extends React.Component {
 			currentZoom: 0,
 		};
 
+		console.log('hello');
+
 		this.getVideo = this.getVideo.bind(this);
 		this.handleMapZoom = this.handleMapZoom.bind(this);
 		this.setVideo = this.setVideo.bind(this);
